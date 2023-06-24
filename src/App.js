@@ -1,7 +1,6 @@
 import "./App.css";
 import logo from "./random-logo.jpg";
 import React, { useState } from "react";
-// import Items from "./components/items";
 import Product from "./components/product";
 
 import { initializeApp } from "firebase/app";
@@ -179,7 +178,7 @@ function App() {
               onChange={(e) => setPassword(e.target.value)}
             />
             <Button onClick={signIn}>Sign In</Button>
-            {/* <Button onClick={()=>{setShow(false)}}>Sign In</Button> */}
+
           </form>
         </Box>
       </Modal>
@@ -246,4 +245,3 @@ function App() {
 }
 
 export default App;
-
